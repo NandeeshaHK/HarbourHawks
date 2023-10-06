@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <style>
-
 body {
     background-size: cover;
     background-repeat: no-repeat;
@@ -11,9 +10,11 @@ body {
     text-align: center;
     background-color: rgba(0, 52, 42, 0.25);
     border-radius: 15px;
-    padding: 20px;
+    padding: 10px;
     border-radius: 55px;
-    margin: 10px;
+    margin: 5px;
+    margin-inline-start: 450px;
+    margin-inline-end: 450px;
     background: linear-gradient(
     to left, 
     rgba(5,100,5,0.4), 
@@ -26,7 +27,9 @@ body {
 }
 .latest-image {
     border-radius: 55px;
-    padding: 10px 450px;
+    padding: 10px 150px;
+    margin-inline-end: 300px;
+    margin-inline-start: 300px;
     background-color: rgba(0, 52, 42, 0.25);
     color: white;
     border: none;
@@ -47,6 +50,8 @@ body {
     color: white;
     border: none;border-radius: 55px;
     margin: 10px;
+    margin-inline-start: 300px;
+    margin-inline-end: 300px;
     align-items: center; 
     background: linear-gradient(
     to left, 
@@ -60,9 +65,10 @@ body {
 }
 .search-container input[type="text"] {
     border-radius: 10px;
-    padding: 10px;    
+    padding: 15px 60px;    
+    align-items: center;
     border-radius: 55px;
-    margin: 10px;
+    margin-inline-start: 300px;
 }
 .search-container button {
     border-radius: 10px;
@@ -77,9 +83,11 @@ body {
 .search-result-container {
     align-items: center;
     border-radius: 55px;
-    padding: 10px 500px;
+    padding: 20px 100px;
     overflow-y: auto;
     margin: 10px;
+    margin-inline-start: 300px;
+    margin-block-end: 300px;
     background-color: rgba(155, 155, 155, 0.7);
     background: linear-gradient(
     to left, 
@@ -121,7 +129,7 @@ body {
 <head>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='harbourhawks.css') }}">
 </head>
-<body style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/c/ca/2019--09-14_01_Short-sea_shipping_EEMS_DELFIA_-_IMO_8411633.jpg');">
+<body style="background-image:url('https://www.joinindiannavy.gov.in/images/home_banner/home_banner_1.jpg')">
     <div class="header">
         <h1>HARBOURHAWKS</h1>
     </div>
